@@ -1,0 +1,41 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.container .content h1{
+    width: 100px;
+    text-align: center;
+}
+.container button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(10, 13, 53, 0.799);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+.container button.animation:hover {
+    transform: scale(1.1);
+    background-color: rgba(20, 26, 80, 0.9);
+}
+
+
+.container button.animation:active {
+    transform: scale(0.95);
+    background-color: rgba(5, 7, 35, 0.9);
+}
