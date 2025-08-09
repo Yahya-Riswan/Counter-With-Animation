@@ -83,8 +83,10 @@ Use the toggle to enable/disable animations.
 ## 📦 Dependencies
 
 Redux 4.2.1 (ES Module via CDN)
-<script type="module" src="https://cdn.jsdelivr.net/npm/redux@4.2.1/es/redux.mjs"></script>
 
+```js
+<script type="module" src="https://cdn.jsdelivr.net/npm/redux@4.2.1/es/redux.mjs"></script>
+```
 --- 
 
 ## 📷 Preview
