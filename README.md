@@ -88,7 +88,7 @@ Redux 4.2.1 (ES Module via CDN)
 --- 
 
 ## 📷 Preview
-(Add a screenshot or GIF here)
+![Project Demo](counterwithanimation.gif)
 
 
 ---
